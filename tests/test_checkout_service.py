@@ -7,7 +7,6 @@ from src.checkout import CheckoutService, ChargeResult
 
 
 class TestCheckoutService(unittest.TestCase):
-
     def setUp(self):
         self.payments = Mock()
         self.email = Mock()
